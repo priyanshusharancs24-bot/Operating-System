@@ -42,6 +42,7 @@ int main()
     return 0;
 }
 
+/*
 OUTPUT:
 Enter number of processes: 4
 Enter Arrival Time:
@@ -59,4 +60,4 @@ Process AT      BT      CT      TAT     WT
 P1      0       7       7       7       0
 P2      0       3       10      10      7
 P3      0       4       14      14      10
-P4      0       6       20      20      14
+*/
