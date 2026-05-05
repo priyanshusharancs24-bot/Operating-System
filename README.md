@@ -142,8 +142,8 @@ operating-system/
 
 **Priyanshu Sharan**
 
-**USN: 1WA24CS223**
+USN: 1WA24CS223
 
-**BMS College of Engineering**
+BMS College of Engineering
 
 ---
