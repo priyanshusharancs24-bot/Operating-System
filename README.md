@@ -1,149 +1,277 @@
-# 🖥️ Operating Systems
+<div align="center">
+
+# 🖥️ Operating System
+
+### BMS College of Engineering, Bengaluru
+
+<p>
+<img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c" />
+<img src="https://img.shields.io/badge/Course-Operating%20Systems-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/BMSCE-Laboratory-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/GCC-Compiler-orange?style=for-the-badge" />
+</p>
+
+</div>
 
 ---
 
-## 👨‍🎓 Student Details
+# 📚 Operating System Laboratory Programs
 
-* **Name:** Priyanshu Sharan
-* **USN:** 1WA24CS223
-* **Semester:** 4
-* **Course:** Operating Systems
-* **Course Code:** 23CS4PCOPS
+Complete collection of Operating System laboratory programs implemented in **C Language** as part of the **Operating Systems Course** at **BMS College of Engineering (BMSCE)**.
 
 ---
 
-## 🏫 Institution Details
+# 👨‍🎓 Student & Course Information
 
-* **College:** BMS College of Engineering (BMSCE), Bangalore
-* **Department:** Computer Science and Engineering
-* **Faculty:** Prof. Seema Patil
-
----
-
-## 📌 Overview
-
-This repository contains C implementations of fundamental **Operating System algorithms and concepts** as part of the 4th semester academic curriculum at BMSCE.
-
-### 🔍 Focus Areas
-
-* CPU Scheduling Algorithms
-* Process Synchronization Problems
-* Basic Algorithmic Implementations (Searching)
+| 👨‍🎓 Student Information | Details | 👩‍🏫 Course Information | Details |
+|---|---|---|---|
+| **Name** | Priyanshu Sharan | **Course** | Operating Systems Laboratory |
+| **USN** | 1WA24CS223 | **Faculty** | Dr. Seema Patil |
+| **Semester** | 4th Semester | **Department** | Computer Science and Engineering |
+| **Department** | Computer Science and Engineering | **Language Used** | C |
+| **Institution** | BMS College of Engineering | **Compiler** | GCC |
 
 ---
 
-## ⚙️ Implemented Programs
+# 🎯 Repository Highlights
 
-### 🧠 CPU Scheduling Algorithms
+✅ Complete Laboratory Program Collection
 
-* First Come First Served (FCFS)
-* Shortest Job First (SJF)
+✅ All Programs Written in C
 
-  * Non-Preemptive
-  * Preemptive
-* Priority Scheduling
+✅ Algorithm Included for Every Program
 
-  * Non-Preemptive
-  * Preemptive
-* Round Robin Scheduling
-* Multilevel Queue Scheduling
-* Proportional (Lottery) Scheduling
-* Rate Monotonic Scheduling (RMS)
-* Earliest Deadline First (EDF)
+✅ Sample Output Included
+
+✅ Clean and Well Documented Code
+
+✅ Covers Operating Systems Laboratory Concepts
 
 ---
 
-### 🔄 Synchronization Problems
+# 🧠 Topics Covered
 
-* Producer Consumer Problem
-* Dining Philosophers Problem
+## 🔹 CPU Scheduling Algorithms
 
----
-
-### 🔍 Additional Programs
-
-* Linear Search
-* Binary Search
-* Duplicate Element Detection in Array
-* Find Smallest Element in Array
-
----
-
-## 🛠️ Technologies Used
-
-* **Language:** C
-* **Compiler:** GCC
-* **Platform:** Linux / macOS / Windows
+- First Come First Serve (FCFS)
+- Shortest Job First (SJF)
+- Priority Scheduling
+- Round Robin Scheduling
+- Multilevel Queue Scheduling
+- Earliest Deadline First Scheduling
+- Rate Monotonic Scheduling
+- Proportional (Lottery) Scheduling
 
 ---
 
-## ▶️ Execution Steps
+## 🔹 Process Synchronization
 
-### 1. Clone the repository
+- Producer Consumer Problem
+- Dining Philosophers Problem
 
-```bash
-git clone https://github.com/your-username/operating-system.git
-cd operating-system
-```
+---
 
-### 2. Compile the program
+## 🔹 Deadlock Handling
+
+- Banker's Algorithm
+- Deadlock Detection Algorithm
+
+---
+
+## 🔹 Memory Allocation Techniques
+
+- First Fit
+- Best Fit
+- Worst Fit
+
+---
+
+## 🔹 Page Replacement Algorithms
+
+- FIFO
+- LRU
+- Optimal
+
+---
+
+## 🔹 File Allocation Techniques
+
+- Sequential Allocation
+- Indexed Allocation
+- Linked Allocation
+
+---
+
+## 🔹 File Organization Techniques
+
+- Single Level Directory
+- Two Level Directory
+- Hierarchical Directory
+
+---
+
+## 🔹 Disk Scheduling Algorithms
+
+- FCFS Disk Scheduling
+- SCAN Disk Scheduling
+- SSTF Disk Scheduling
+- C-LOOK Disk Scheduling
+
+---
+
+# 📂 Laboratory Programs
+
+| Lab No. | Program Category | Programs |
+|----------|------------------|-----------|
+| 1 | CPU Scheduling | FCFS, SJF, Priority, Round Robin |
+| 2 | Multi Level Queue Scheduling | Multilevel Queue |
+| 3 | Real Time Scheduling | EDF, RMS, Lottery Scheduling |
+| 4 | Synchronization | Producer Consumer, Dining Philosophers |
+| 5 | Deadlock Handling | Banker's Algorithm, Deadlock Detection |
+| 6 | Memory Allocation | First Fit, Best Fit, Worst Fit |
+| 7 | Page Replacement | FIFO, LRU, Optimal |
+| 8 | File Allocation | Sequential, Indexed, Linked |
+| 9 | File Organization | Single Level, Two Level, Hierarchical |
+| 10 | Disk Scheduling | FCFS, SCAN, SSTF, C-LOOK |
+
+---
+
+# 📊 Repository Statistics
+
+| Category | Count |
+|-----------|--------|
+| CPU Scheduling Programs | 6 |
+| Real Time Scheduling Programs | 3 |
+| Synchronization Programs | 2 |
+| Deadlock Programs | 2 |
+| Memory Allocation Programs | 3 |
+| Page Replacement Programs | 3 |
+| File Allocation Programs | 3 |
+| File Organization Programs | 3 |
+| Disk Scheduling Programs | 4 |
+
+### 📌 Total Programs: 30
+
+---
+
+# ⚙️ Compilation
 
 ```bash
 gcc filename.c -o output
 ```
 
-### 3. Run the executable
+---
+
+# ▶️ Execution
+
+### Linux / macOS
 
 ```bash
 ./output
 ```
 
+### Windows
+
+```bash
+output.exe
+```
+
 ---
 
-## 📂 Repository Structure
+# 🛠️ Technologies Used
 
-```
-operating-system/
+- C Programming Language
+- GCC Compiler
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+# 📖 Learning Outcomes
+
+- Understanding CPU Scheduling Techniques
+- Process Synchronization Concepts
+- Deadlock Prevention and Detection
+- Memory Management Techniques
+- Page Replacement Policies
+- File Allocation Methods
+- File System Organization
+- Disk Scheduling Algorithms
+
+---
+
+# 📁 Repository Structure
+
+```text
+Operating-System/
 │
-├── scheduling-algorithms/
-├── synchronization/
-├── searching-algorithms/
-└── *.c
+├── CPU-Scheduling/
+│   ├── FCFS.c
+│   ├── SJF.c
+│   ├── Priority.c
+│   └── RoundRobin.c
+│
+├── Real-Time-Scheduling/
+│   ├── EDF.c
+│   ├── RMS.c
+│   └── Lottery.c
+│
+├── Synchronization/
+│   ├── ProducerConsumer.c
+│   └── DiningPhilosophers.c
+│
+├── Deadlock/
+│   ├── BankersAlgorithm.c
+│   └── DeadlockDetection.c
+│
+├── Memory-Allocation/
+│   ├── FirstFit.c
+│   ├── BestFit.c
+│   └── WorstFit.c
+│
+├── Page-Replacement/
+│   ├── FIFO.c
+│   ├── LRU.c
+│   └── Optimal.c
+│
+├── File-Allocation/
+│   ├── Sequential.c
+│   ├── Indexed.c
+│   └── Linked.c
+│
+├── File-Organization/
+│   ├── SingleLevelDirectory.c
+│   ├── TwoLevelDirectory.c
+│   └── HierarchicalDirectory.c
+│
+├── Disk-Scheduling/
+│   ├── FCFS.c
+│   ├── SCAN.c
+│   ├── SSTF.c
+│   └── CLOOK.c
+│
+└── README.md
 ```
 
 ---
 
-## 🎯 Learning Objectives
+# ⭐ Operating System Laboratory Repository ⭐
 
-* Understand CPU scheduling strategies and performance metrics
-* Implement synchronization techniques
-* Analyze real-time scheduling algorithms (RMS, EDF)
-* Improve C programming and problem-solving skills
+## Developed By
 
----
+### Priyanshu Sharan
 
-## 📚 References
+**USN:** 1WA24CS223
 
-* Operating System Concepts — Silberschatz, Galvin, Gagne
-* Modern Operating Systems — Andrew S. Tanenbaum
-* Operating Systems: Internals and Design Principles — William Stallings
+**Department:** Computer Science and Engineering
+
+**Institution:** BMS College of Engineering, Bengaluru
 
 ---
 
-## 📌 Notes
+<div align="center">
 
-* Programs are implemented for academic purposes
-* Outputs depend on user input
-* Focus is on clarity rather than optimization
+### 🌟 If you found this repository useful, consider giving it a star! 🌟
 
----
-
-## 👨‍💻 Author
-
-**Priyanshu Sharan**
-
-USN: 1WA24CS223
-
-BMS College of Engineering
-
----
+</div>
